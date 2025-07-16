@@ -6,7 +6,7 @@ import { MbpProfile } from './mbp-profile'
 export function CallingToolsScreen() {
   const [value, setValue] = useState('weather')
   return (
-    <ScrollItemWrapper className="">
+    <ScrollItemWrapper>
       <div className="pl-22">
         <p className="mb-2 text-xl font-semibold">Built-in Tools</p>
         <p className="subsection-headline mb-15">Link AI with realities.</p>

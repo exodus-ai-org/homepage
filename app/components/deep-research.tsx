@@ -22,6 +22,39 @@ export function DeepResearchScreen() {
           // className="w-1/2 rounded-2xl object-cover shadow-xl"
         />
       </div>
+
+      <div>
+        <h3>Planning</h3>
+        <p>
+          Deep Research transforms your prompt into a personalized multi-point
+          research plan
+        </p>
+      </div>
+
+      <div>
+        <h3>Searching</h3>
+        <p>
+          Deep Research autonomously searches and deeply browses the web to find
+          relevant, up-to-date information
+        </p>
+      </div>
+
+      <div>
+        <h3>Reasoning</h3>
+        <p>
+          Deep Research shows its thoughts as it reasons over information
+          gathered iteratively and thinks before making its next move
+        </p>
+      </div>
+
+      <div>
+        <h3>Reporting</h3>
+        <p>
+          Deep Research provides comprehensive custom research reports with more
+          detail and insights, generated in minutes and available as an Audio
+          Overview, saving you hours of time
+        </p>
+      </div>
     </ScrollItemWrapper>
   )
 }
