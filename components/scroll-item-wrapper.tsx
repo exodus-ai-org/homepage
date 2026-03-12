@@ -3,10 +3,16 @@ import { ReactNode } from 'react'
 
 export function ScrollItemWrapper({
   children,
-  className
+  className,
+  id
 }: {
   children: ReactNode
   className?: string
+  id?: string
 }) {
-  return <section className={cn('min-h-screen mt-[88px] max-w-[980px] mx-auto', className)}>{children}</section>
+  return (
+    <section id={id} className={cn('mx-auto max-w-[980px] px-6', className)}>
+      {children}
+    </section>
+  )
 }

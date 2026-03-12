@@ -11,7 +11,7 @@ export function Tab({
   handleTabChange: (tab: string) => void
 }) {
   return (
-    <div className="flex w-fit cursor-pointer gap-[60px] border-b border-b-[#86868b] py-[13px] text-[28px] font-semibold text-[#86868b]">
+    <div className="flex w-fit cursor-pointer gap-[60px] py-[13px] text-[28px] font-semibold text-[#86868b]">
       {tabs.map((tab) => (
         <div
           className={cn('clip-text-hover', {
