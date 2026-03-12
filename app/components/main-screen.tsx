@@ -111,23 +111,31 @@ export function MainScreen() {
           transition={{ duration: 0.8, delay: 1.05, ease: 'easeOut' }}
           className="flex flex-wrap justify-center gap-3"
         >
-          <Button className="h-11 gap-2 rounded-full bg-white px-6 font-semibold text-black hover:bg-white/90">
-            <Github className="h-4 w-4" />
-            GitHub
+          <Button asChild className="h-11 gap-2 rounded-full bg-white px-6 font-semibold text-black hover:bg-white/90">
+            <a href="https://github.com/exodus-ai-org/exodus" target="_blank" rel="noopener noreferrer">
+              <Github className="h-4 w-4" />
+              GitHub
+            </a>
           </Button>
           <Button
+            asChild
             variant="outline"
             className="h-11 gap-2 rounded-full border-white/20 bg-white/5 px-6 text-white backdrop-blur-sm hover:bg-white/10 hover:text-white"
           >
-            <Download className="h-4 w-4" />
-            Download
+            <a href="#download">
+              <Download className="h-4 w-4" />
+              Download
+            </a>
           </Button>
           <Button
+            asChild
             variant="ghost"
             className="h-11 gap-2 rounded-full px-6 text-white/50 hover:bg-white/5 hover:text-white"
           >
-            <Heart className="h-4 w-4" />
-            Sponsor
+            <a href="https://github.com/sponsors/YanceyOfficial" target="_blank" rel="noopener noreferrer">
+              <Heart className="h-4 w-4" />
+              Sponsor
+            </a>
           </Button>
         </motion.div>
       </motion.div>
