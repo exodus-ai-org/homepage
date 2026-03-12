@@ -35,9 +35,21 @@ export function FooterScreen() {
             </p>
             <div className="flex gap-4">
               {[
-                { icon: Github, href: '#', label: 'GitHub' },
-                { icon: Twitter, href: '#', label: 'Twitter' },
-                { icon: Star, href: '#', label: 'Star' }
+                {
+                  icon: Github,
+                  href: 'https://github.com/exodus-ai-org/exodus',
+                  label: 'GitHub'
+                },
+                {
+                  icon: Twitter,
+                  href: 'https://twitter.com/YanceyOfficial',
+                  label: 'Twitter'
+                },
+                {
+                  icon: Star,
+                  href: 'https://github.com/exodus-ai-org/exodus/stargazers',
+                  label: 'Star'
+                }
               ].map(({ icon: Icon, href, label }) => (
                 <a
                   key={label}
