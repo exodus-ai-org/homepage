@@ -25,7 +25,10 @@ const itemVariants = {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { duration: 0.55, ease: [0.16, 1, 0.3, 1] }
+    transition: {
+      duration: 0.55,
+      ease: [0.16, 1, 0.3, 1] as [number, number, number, number]
+    }
   }
 }
 
@@ -82,7 +85,7 @@ export function ProvidersScreen() {
             className="group flex flex-col items-center gap-3"
           >
             <div
-              className={`relative flex h-[88px] w-[88px] items-center justify-center overflow-hidden rounded-[22px] border border-black/8 bg-white/90 shadow-sm shadow-black/5 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-black/10 dark:border-white/10 dark:bg-white/8 dark:group-hover:bg-white/12`}
+              className={`relative flex h-22 w-22 items-center justify-center overflow-hidden rounded-[22px] border border-black/8 bg-white/90 shadow-sm shadow-black/5 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-black/10 dark:border-white/10 dark:bg-white/8 dark:group-hover:bg-white/12`}
             >
               <div
                 className={`h-14 w-14 bg-contain bg-center bg-no-repeat ${provider.bg ? 'rounded-lg bg-white p-1' : ''}`}
