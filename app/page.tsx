@@ -3,6 +3,7 @@
 import { ReactLenis } from 'lenis/react'
 import { CallingToolsScreen } from './components/calling-tools-screen'
 import { DeepResearchScreen } from './components/deep-research'
+import { DownloadScreen } from './components/download-screen'
 import { FeaturesGrid } from './components/features-grid'
 import { FooterScreen } from './components/footer-screen'
 import { MainScreen } from './components/main-screen'
@@ -24,6 +25,7 @@ export default function LenisWebsite() {
         <MainScreen />
         <ProvidersScreen />
         <FeaturesGrid />
+        <DownloadScreen />
         <CallingToolsScreen />
         <DeepResearchScreen />
         <FooterScreen />
