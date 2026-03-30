@@ -7,7 +7,7 @@
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "dev": "next dev --turbopack",
-    "build": "opennextjs-cloudflare build --turbopack",
+    "build": "next build --turbopack",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write ."
